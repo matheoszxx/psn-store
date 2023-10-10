@@ -30,11 +30,21 @@
 	padding: 15px;
 }
 
-.menu-bar__item li{
+.menu-bar__item > ul > li{
 	margin-right: 30px;
 }
 
+.menu-bar__item > ul > li > a{
+	text-decoration: none;
+	padding: 5px;
+	color: black;
+	font-family: 'Segoe UI';
+}
 
+.menu-bar__item > ul > li > a:hover{
+	color: blue;
+	font-weight: bold;
+}
 
 
 
