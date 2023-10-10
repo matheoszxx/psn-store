@@ -1,0 +1,24 @@
+.card__container{
+	position: relative;
+	border: 3px solid #3e4357;
+	border-radius: 10px;
+	width: 350px;
+	height: 500px;
+
+	display: flex;
+	/* overflow: hidden é para todo o conteudo que sair da "border", ser escondido */
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.card__img{
+	min-width: 100%;
+	min-height: 100%;
+	/* ao colocar o cursor do mouse em cima, vai demorar.8s para a imagem mudar o tamanho dela para "scale(1.1)" */
+	transition: transform .8s;
+}
+
+/* efeito na imagem */
+.card__img:hover{
+	transform: scale(1.1);
+}
