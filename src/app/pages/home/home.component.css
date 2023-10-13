@@ -10,5 +10,5 @@
 	align-items: baseline;
 	/* quando exceder o limite da div direciona o card para linha de baixo */
 	flex-wrap: wrap;
-	border: 1px solid red
+
 }
